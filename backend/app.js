@@ -16,7 +16,7 @@ const cookieParser = require('cookie-parser');
 
 // Enable CORS...........RECENTLY ADDED ON 25TH JULY
 app.use(cors({
-  origin: "http://localhost:3000", // Frontend's URL (adjust as needed)
+  origin: "http://localhost:3000",// Frontend's URL (adjust as needed)
   credentials: true, // Allow cookies to be sent with cross-origin requests
 }));
 
